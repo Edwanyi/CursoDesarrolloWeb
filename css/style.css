@@ -2,7 +2,24 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 32px;
+    color: rgb(173, 13, 13);
+}
+
+h2{
+    font-size: 24px;
+    color: rgb(238, 41, 41);
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p{
+    font-size: 10px;
 }
 
 header, section, footer, 
@@ -22,19 +39,21 @@ body{
 }
 
 #cabecera{
-    background-color: #fffbb9;
+    background-color: #fce043;
     border: 1px solid #999;
     padding: 20px;
 }
 
 #menu{
-    background-color: #ccc;
-    padding: 5px 15px;
+    /* background-color: #ccc; */
+    padding: 5px 20px;
 }
 
 #menu li {
     display: inline-block;
+    background-color: rgb(172, 172, 172);
     list-style: none;
+    border: 1px solid #646161;
     padding: 5px;
     font: bold 14px verdana, sans-serif;
 }
@@ -54,10 +73,12 @@ body{
 }
 
 #pie{
+    font-size: 10px;
     clear: both;
     text-align: center;
-    padding: 20px;
-    border-top: 2px solid #999;
+    padding: 12px;
+    /* border-top: 2px solid #999; */
+    background-color: #ccc;
 }
 
 article{
@@ -65,6 +86,7 @@ article{
     border: 1px solid #ccc;
     padding: 20px;
     margin-bottom: 15px;
+    font-size: 16px;
 }
 
 img{
@@ -73,8 +95,9 @@ img{
 
 article footer{
     text-align: right;
+    font-size: 12px;
 }
 
 figcaption{
-    font: italic 14px verdana, sans-serif;
+    font: italic 10px verdana, sans-serif;
 }
