@@ -1,0 +1,18 @@
+.container{
+    width: 80%;
+    background-color: #acacac;
+    border-radius: 15px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.item{
+    width: 25%;
+    height: 50px;
+    background-color: aqua;
+}

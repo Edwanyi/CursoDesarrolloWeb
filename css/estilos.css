@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+
+#principal{
+    display: block;
+    width: 500px;
+    margin: 100px auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #cacaca;
+    background-color: #dddd;
+
+    /* CURVAR LAS ESQUINAS */
+
+    /* -moz-border-radius: 20px 5px 20px 5px;
+    -webkit-border-radius: 20px 5px 20px 5px;
+    border-radius: 20px 5px 20px 5px; */
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+
+    /* -moz-border-radius: 20px / 10px;
+    -webkit-border-radius: 20px / 10px;
+    border-radius: 20px / 10px; */
+
+    /* SOMBRA */
+
+    /* -moz-box-shadow: rgb(150,150,150) 5px 5px;
+    -webkit-box-shadow: rgb(150,150,150) 5px 5px;
+    box-shadow: rgb(150,150,150) 5px 5px; */
+
+    /* -moz-box-shadow: #06024c 5px 5px 10px inset;
+    -webkit-box-shadow: #06024c 5px 5px 10px inset;
+    box-shadow: #06024c 5px 5px 10px inset; */
+
+    -moz-box-shadow: #06024c 5px 5px 10px;
+    -webkit-box-shadow: #06024c 5px 5px 10px;
+    box-shadow: #06024c 5px 5px 10px;
+}
+
+#titulo{
+    font: bold 36px verdana, sans-serif;
+
+}
